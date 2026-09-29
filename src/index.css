@@ -1,0 +1,26 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#fff;color:#111}
+.wrap{max-width:440px;margin:0 auto;padding:28px 18px 60px}
+h1{font-size:14px;letter-spacing:.35em;margin:0 0 6px;text-align:center}
+.sub{text-align:center;color:#777;margin:0 0 28px}
+.head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.head b{text-transform:capitalize}
+button{font:inherit;cursor:pointer}
+.nav{border:1px solid #ddd;background:#fff;border-radius:8px;width:40px;height:40px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.dow{font-size:11px;color:#999;text-align:center;padding:4px 0}
+.day{aspect-ratio:1;border:1px solid transparent;border-radius:10px;background:#f4f4f4;color:#bbb;font-size:15px}
+.day.free{background:#111;color:#fff}.day.sel{outline:3px solid #999}
+.day.taken{background:#e6e6e6;color:#999;text-decoration:line-through}
+.day:disabled{cursor:not-allowed}
+.legend{display:flex;gap:14px;font-size:12px;color:#777;margin:12px 0}
+.card{border:1px solid #e3e3e3;border-radius:14px;padding:18px;margin-top:20px}
+.card h2{margin:0 0 4px;font-size:17px;text-transform:capitalize}
+input{width:100%;padding:14px;border:1px solid #ccc;border-radius:10px;font:inherit;margin:8px 0}
+.btn{width:100%;padding:14px;border:0;border-radius:10px;background:#111;color:#fff;font-weight:600;margin-top:6px}
+.btn.ghost{background:#fff;color:#111;border:1px solid #ccc}.btn.danger{background:#fff;color:#b00020;border:1px solid #b00020}
+.btn:disabled{opacity:.5}
+.msg{padding:12px;border-radius:10px;background:#f4f4f4;margin-top:14px;font-size:14px}.msg.err{background:#fdecea;color:#8a1c1c}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid #eee;font-size:14px}
+.row small{color:#888;display:block}.row .btn{width:auto;padding:8px 12px;margin:0;font-size:13px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.link{word-break:break-all;font-size:12px;background:#f4f4f4;padding:10px;border-radius:8px;margin:8px 0}
